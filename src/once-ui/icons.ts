@@ -1,4 +1,6 @@
 import { IconType } from "react-icons";
+import { FaBehanceSquare } from "react-icons/fa";
+
 
 import {
   HiChevronUp,
@@ -23,6 +25,8 @@ import {
   HiArrowRight,
   HiOutlineEye,
   HiOutlineEyeSlash,
+  HiPhone,
+  
 } from "react-icons/hi2";
 
 import {
@@ -67,4 +71,6 @@ export const iconLibrary: Record<string, IconType> = {
   x: FaXTwitter,
   clipboard: HiClipboard,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
+  phone: HiPhone,
+  behance:FaBehanceSquare
 };

@@ -28,7 +28,7 @@ const social = [
   // Import new icons in /once-ui/icons.ts
   {
     name: "Behance",
-    icon: "github",
+    icon: "behance",
     link: "https://www.behance.net/afnastk",
   },
   {
@@ -49,8 +49,8 @@ const social = [
 
   {
     name: "+971 56 850 4642",
-    icon: "mobile",
-    link: "https://www.behance.net/afnastk",
+    icon: "phone",
+    link: "tel: +971 56 850 4642",
   },
 ];
 

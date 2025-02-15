@@ -9,11 +9,11 @@ const person = {
   role: "Visual Designer",
   avatar: "/images/avatar.jpeg",
   location: "Asia/Dubai", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English","Malayalam" ], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English","Malayalam", "Hindi" ], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>

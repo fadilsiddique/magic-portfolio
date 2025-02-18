@@ -61,8 +61,7 @@ const home = {
   headline: <>Visual Designer</>,
   subline: (
     <>
-      I'm Afnas, a visual designer at <InlineCode>Project Roughpaper</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Afnas, a visual designer passionate about creating seamless and engaging user experiences. At <InlineCode>Project Roughpaper</InlineCode>I refine digital interactions with thoughtful design. Beyond work, I explore and develop my own creative projects, constantly pushing the boundaries of innovation.
     </>
   ),
 };
@@ -87,9 +86,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Afnas is a Dubai-based visual engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. His work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        
+        I'm Afnas, a Dubai-based visual engineer passionate about transforming complex challenges into simple, 
+        elegant design solutions. My work spans digital interfaces, interactive experiences, 
+        and the intersection of design and technology.
       </>
     ),
   },
@@ -181,61 +181,61 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        // description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/cover-02.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        //   {
+        //     src: "/images/projects/project-01/cover-03.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
       {
         title: "Adobe Illustrator",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // // optional: leave the array empty if you don't want to display images
+        // images: [
+        //   {
+        //     src: "/images/gallery/yalla-4.jpg",
+        //     alt: "Project image",
+        //     width:30,
+        //     height: 40,
+        //   },
+        // ],
       },
       {
         title: "Adobe Photoshop",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // // optional: leave the array empty if you don't want to display images
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/cover-04.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
       {
         title: "Adobe Premier Pro",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        // description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // // optional: leave the array empty if you don't want to display images
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/cover-04.jpg",
+        //     alt: "Project image",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
     ],
   },
@@ -289,6 +289,31 @@ const gallery = {
       orientation: "vertical",
     },
     {
+      src: "/images/gallery/yalla-8.png",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/frapino.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/upl.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/yonex-4.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/Beyar.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/skyline.png",
       alt: "image",
       orientation: "vertical",
@@ -299,37 +324,12 @@ const gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/yonex-4.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/yalla-6.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/frapino.png",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
       src: "/images/gallery/bike.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-14.jpg",
+      src: "/images/gallery/fir.jpg",
       alt: "image",
       orientation: "horizontal",
     },

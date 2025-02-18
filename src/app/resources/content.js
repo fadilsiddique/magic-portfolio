@@ -9,7 +9,7 @@ const person = {
   role: "Visual Designer",
   avatar: "/images/avatar.jpeg",
   location: "Asia/Dubai", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English","Malayalam", "Hindi" ], // optional: Leave the array empty if you don't want to display languages
+  languages: ["UI/UX","Branding", "Illustration","Mockups","Motion Design" ], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -50,7 +50,7 @@ const social = [
   {
     name: "+971 56 850 4642",
     icon: "phone",
-    link: "tel: +971 56 850 4642",
+    link: "tel: +971 56 958 7208",
   },
 ];
 
@@ -98,17 +98,39 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Freelance",
+        timeframe: "2024 - Present",
+        role: "Visual Designer",
+        achievements: [
+          <>
+            Executed a range of design projects, including branding, UI/UX, and social media, ensuring
+            visually compelling and user-focused solutions. Designed a CRM mobile app for real estate
+            agents, enhancing client management, workflow efficiency, and user experience.
+          </>,
+
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      
+      {
         company: "Project Roughpaper",
-        timeframe: "2022 - Present",
+        timeframe: "2022 - 2024",
         role: "Senior Visual Designer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Designed and developed branding, marketing, and digital assets for high-profile clients,including Yonex UAE, 
+            LP Support, PBH, Yalla Snack, and Skyline UAE, ensuring brand consistency and market impact.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Created high-quality designs across print and digital platforms, enhancing brand engagement and market presence
           </>,
         ],
         images: [
@@ -127,13 +149,13 @@ const about = {
         role: "Junior Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Contributed to branding, social media creatives, and marketing materials, gaining practical
+            experience in design, visual communication, and brand strategy.
           </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          // <>
+          //   Led a cross-functional team to launch a new product line, contributing to a 15% increase
+          //   in overall company revenue.
+          // </>,
         ],
         images: [],
       },
@@ -177,7 +199,33 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Adobe Illustrator",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Adobe Photoshop",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Adobe Premier Pro",
         description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [

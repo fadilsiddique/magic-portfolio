@@ -79,7 +79,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -264,37 +264,37 @@ const gallery = {
   // Images from https://pexels.com
   images: [
     {
-      src: "/images/gallery/img-01.jpg",
+      src: "/images/gallery/London Story.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-02.jpg",
+      src: "/images/gallery/yalla-4.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-03.jpg",
+      src: "/images/gallery/yalla.png",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-04.jpg",
+      src: "/images/gallery/yonex-2.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
+      src: "/images/gallery/yonex-5.png",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-07.jpg",
+      src: "/images/gallery/skyline.png",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/jumbo.jpg",
       alt: "image",
       orientation: "horizontal",
     },
@@ -304,12 +304,12 @@ const gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-09.jpg",
+      src: "/images/gallery/yonex-4.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-10.jpg",
+      src: "/images/gallery/yalla-6.png",
       alt: "image",
       orientation: "horizontal",
     },
@@ -319,7 +319,7 @@ const gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-12.jpg",
+      src: "/images/gallery/frapino.png",
       alt: "image",
       orientation: "horizontal",
     },

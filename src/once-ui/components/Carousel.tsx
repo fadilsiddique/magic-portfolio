@@ -119,7 +119,7 @@ const Carousel: React.FC<CarouselProps> = ({
                   }}
                   cursor="interactive"
                   fillWidth
-                  height="2"
+                  height="4"
                 ></Flex>
               ))}
             </Flex>
